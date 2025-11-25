@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('../assets/fonts/lato/Lato-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/fonts/montserrat/Montserrat-Regular.ttf') format('truetype');
+}
+
 * {
     padding: 0;
     border: 0;
@@ -6,16 +16,25 @@
     box-sizing: border-box;
 }
 
-.faq 
+.faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .faq details {
     margin-top: 53px;
+    background-color: #F3F0F0;
     border: 1px solid #ccc;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 'SemiBold';
     padding: 12px;
     margin-bottom: 10px;
     border-radius: 30px;
     cursor: pointer;
-    max-width: 954px;
+    width: 954px;
 }
 
 .faq summary::after {
