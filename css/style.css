@@ -22,6 +22,38 @@
     box-sizing: border-box;
 }
 
+header {
+    background-color: #8A05BE;
+    box-sizing: border-box;
+    width: 100%;
+    height: 165px;
+    padding: 0 40px;
+    margin-top: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 20%;
+    height: auto;
+}
+
+.menu {
+    display: flex;
+    gap: 80px;
+    margin-right: 80px;
+}
+
+.cabecalho {
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: italic;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+}
 
 .hero {
     height: 100vh;
