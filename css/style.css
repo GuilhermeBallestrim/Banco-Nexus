@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Lato';
-    src: url('../assets/fonts/lato/Lato-Light.ttf') format('truetype');
+    src: url('../assets/fonts/lato/Lato-Regular.ttf') format('truetype');
 }
 
 @font-face {
@@ -21,20 +21,34 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.faq h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 75px;
+    color: #1E1E3F;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .faq details {
-    margin-top: 53px;
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
     background-color: #F3F0F0;
     border: 1px solid #ccc;
     font-family: 'Montserrat', sans-serif;
-    font-size: 32px;
     font-weight: 'SemiBold';
     padding: 12px;
     margin-bottom: 10px;
     border-radius: 30px;
     cursor: pointer;
     width: 954px;
+    min-height: 100px;
 }
 
 .faq summary::after {
@@ -48,9 +62,12 @@
 }
 
 .faq summary {
-    font-weight: 600;
-    font-size: 1rem;
+    font-size: 32px;
     list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #1E1E3F;
+    font-size: 32px;
+    font-weight: 600px;
 }
 
 .faq details[open] summary::after {
@@ -58,18 +75,25 @@
 }
 
 .faq details p {
+    text-align: left;
     margin-top: 10px;
-    font-size: .95rem;
-    line-height: 1.4rem;
+    font-size: 28px;
     padding-left: 20px;
     margin-top: 15px;
     margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 }
 
 .faq details ul li {
     padding-left: 30px;
     margin-bottom: 10px;
     list-style: none;
+    font-size: 28px;
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-align: left;
 }
 
 .faq details ul p {
