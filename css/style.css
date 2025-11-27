@@ -31,15 +31,22 @@
 .container2 {
     margin-top: 50px;
     margin-right: 10px;
-    /* Remove o text-align: right; daqui, pois o Flexbox cuidará do alinhamento */
     font-family: 'Lato';
     font-size: x-large;
-    /* Define uma largura máxima para o container, se necessário */
     width: 100%;
-    margin-left: auto; /* Centraliza o container, mantendo o conteúdo à direita */
+    margin-left: auto;
+    text-align: center;
 }
 
-
+.container3 {
+    margin-top: 50px;
+    margin-left: 10px;
+    font-family: 'lato';
+    font-size: x-large;
+    width: 100%;
+    margin-left: auto;
+    text-align: center;
+}
 /* ---------------------------------------------------------
    4. PARÁGRAFO – TEXTO PRINCIPAL
    --------------------------------------------------------- */
@@ -54,7 +61,7 @@ p.text1 {
 
 
 /* ---------------------------------------------------------
-   5. BLOCO DE COMENTÁRIOS / FALA
+   5. BLOCO DE COMENTÁRIOS
    --------------------------------------------------------- */
 .coment1 {
     font-family: 'Montserrat';
@@ -64,6 +71,22 @@ p.text1 {
     position: relative;
 }
 
+.coment2 {
+    font-family: 'Montserrat';
+    margin: 0 auto 50px auto;
+    width: 70%;
+    max-width: 800px;
+    position: relative;
+}
+
+.coment3 {
+    font-family: 'Montserrat';
+    margin: 0 120px 68px 120px; /* topo / lados / espaçamento para imagem */
+    width: 70%;
+    max-width: 800px;
+    position: relative;
+    margin-top: 40px;
+}
 
 /* ---------------------------------------------------------
    6. TEXTO DA FALA
@@ -82,6 +105,13 @@ p.text1 {
     padding: 0 40px; /* Espaço interno para “respirar” */
 }
 
+.falaC {
+    font-size: 18px;
+    line-height: 1.3;
+    text-align: left;
+    padding:0 40px;
+
+}
 
 /* ---------------------------------------------------------
    7. ASPAS DECORATIVAS
