@@ -159,3 +159,30 @@ img {
     width: 100%; /* Garante responsividade */
 
 }
+
+/* ---------------------------------------------------------
+   10. BOTÃO - FAÇA PARTE!
+   --------------------------------------------------------- */
+
+.btn-container {
+    width: 100%;
+    text-align: center; 
+    margin-bottom: 30px;
+}
+
+button.fp {
+    background-color: #8A05BE;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: large;
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    margin-top: 45px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button.fp:hover {
+     background-color: #6f0499; /* tom um pouco mais escuro */
+}
