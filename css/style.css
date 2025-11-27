@@ -20,6 +20,7 @@
     margin: 0;
     text-decoration: none;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 header {
