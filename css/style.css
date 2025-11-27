@@ -1,5 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: 'Lato';
+    src: url('../assets/fonts/lato/Lato-Light.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/fonts/montserrat/Montserrat-Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: medium;
+}
+
 
 * {
     padding: 0;
@@ -13,8 +24,6 @@ body {
     font-family: "Lato", sans-serif;
     background: #fff;
     margin: 0px;
-    padding: 120px;
-
 }
 
 .vantagem-nexus {
@@ -24,10 +33,12 @@ body {
 }
 
 .vantagem-nexus h2 {
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 700;
     margin-bottom: 50px;
     color: #1E1E3F;
+    width: 1196px;
+    font-family: 'Lato',;
 }
 
 .vantagem-nexus .subtext {
@@ -76,4 +87,46 @@ body {
 .card strong {
     font-weight: 600;
     justify-content: center;
+}
+
+
+.hero {
+    height: 100vh;
+    background-size: cover;
+    font-size: 45px;
+    color: white;
+    background:
+        linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
+        url('../assets/img/Imageminicial.png');
+    background-size: cover;
+}
+
+
+.hero_content>h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    width: 100px;
+    padding: 26px 80px 30px;
+
+}
+
+
+.hero_content>p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    width: 530px;
+    padding: 0px 87px;
+}
+
+.hero_content>a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    background-color: #8a05be;
+    font-size: 18px;
+    padding: 12px 30px;
+    border-radius: 12px;
+    color: white;
+    margin: 40px 80px;
+    display: inline-block;
 }
