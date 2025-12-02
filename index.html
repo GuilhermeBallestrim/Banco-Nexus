@@ -4,14 +4,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <title>Banco Nexus</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <header>
+        <img class="logo" src="/assets/img/Logofundoroxa.png" alt="Logo Banco Nexus">
+        <nav class="menu">
+            <a class="cabecalho" href="/#quem-somos">Quem somos</a>
+            <a class="cabecalho" href="/https://discord.gg/6UAfZSyh2P">Comunidade</a>
+            <a class="cabecalho" href="/formulario.html">Contato</a>
+        </nav>
+    </header>
 
     <main>
 
+        <section class="hero" aria-label="Apresentação Nexus">
+            <div class="hero_content">
+                <h1>Prazer, Nexus</h1>
+
+                <p>
+                    Somos mais que um banco, somos o Nexus, um elo que conecta pessoas, sonhos e oportunidades.
+                    No NEXUS, o futuro não é distante, é construído em conjunto, todos os dias.
+                </p>
+
+                <a href="./formulario.html" class="contato">Entre em contato</a>
+            </div>
+        </section>
+
+        <section class="quem-somos" aria-labelledby="titulo-quem-somos" id="quem-somos">
+
+            <h2 id="titulo-quem-somos">Quem somos</h2>
+
+            <div class="quem-somos_content">
+                <p>
+                    Com mais de 17 anos de experiência, o Banco NEXUS conecta pessoas e oportunidades com soluções
+                    financeiras modernas, seguras e transparentes. Valorizamos o atendimento humano e a proximidade
+                    com nossa comunidade.
+                </p>
+
+                <img src="./assets/img/Imgquemsomos.png" alt="Família feliz se abraçando">
+            </div>
+
+            <div class="botao">
+                <a href="./formulario.html">Faça seu login</a>
+            </div>
+        </section>
+
+        <section class="carrossel" aria-labelledby="titulo-cartoes">
+
+            <h1 id="titulo-cartoes" class="titulo-carrossel">Escolha o seu cartão</h1>
+
+            <p class="paragrafo-carrossel">
+                Do plano familiar ao premium: cartões flexíveis que acompanham sua rotina
+            </p>
+
+            <div class="carrossel-wrapper">
+
+                <figure class="card-miniatura">
+                    <img id="card-left" class="cartoes-menores" src="assets/img/cartaocinza.png"
+                        alt="Cartão à esquerda">
+                </figure>
+
+                <button id="prev" class="btn-seta" aria-label="Anterior">
+                    <img src="assets/img/Seta-esquerda.png" class="setas" alt="">
+                </button>
+
+                <figure id="cartao-central" class="cartao-central">
+                    <img id="card-center" class="cartao-img" src="assets/img/cartaobranco.png" alt="Cartão selecionado">
+
+                    <figcaption>
+                        <strong id="card-title">Clássico - Para seu dia a dia</strong>
+
+                        <ul id="card-list" class="lista-central">
+                            <li>Cashback em Compras</li>
+                            <li>Isenção de Anuidade</li>
+                            <li>App Nexus</li>
+                        </ul>
+                    </figcaption>
+                </figure>
+
+                <button id="next" class="btn-seta" aria-label="Próximo">
+                    <img src="assets/img/Seta-direita.png" class="setas" alt="">
+                </button>
+
+                <figure class="card-miniatura">
+                    <img id="card-right" class="cartoes-menores" src="assets/img/cartaopreto.png"
+                        alt="Cartão à direita">
+                </figure>
+
+            </div>
+
+            <a href="formulario.html" class="botao-carrossel">Encomende seu cartão</a>
+        </section>
+
+        <section class="vantagem-nexus">
+
+            <h2>Vantagem Nexus: Por Que Deixar o Antigo para Trás?</h2>
+
+            <p class="subtext">
+                Bancos tradicionais focam no individual. Nós focamos em você, na sua família e no seu planejamento
+                em conjunto. Veja a diferença:
+            </p>
+
+            <div class="cards-container">
+
+                <div class="card">
+                    <h3>Bancos Tradicionais</h3>
+                    <p><strong>Foco Individual:</strong></p>
+                    <p>Cartões e benefícios pensados apenas para um titular.</p>
+
+                    <p><strong>Recompensas Divididas:</strong></p>
+                    <p>Cada cartão adicional tem seu próprio acúmulo de pontos/cashback.</p>
+
+                    <p><strong>Controle Limitado:</strong></p>
+                    <p>Dificuldade em estabelecer limites específicos para filhos ou dependentes.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Banco Nexus</h3>
+                    <p><strong>Foco Familiar:</strong></p>
+                    <p><strong>Plano Família Unificado.</strong></p>
+                    <p>Todas as suas finanças em um só lugar.</p>
+
+                    <p><strong>Recompensas Potencializadas:</strong></p>
+                    <p>As compras de todos os membros somam para um único objetivo.</p>
+
+                    <p><strong>Controle Total e Educacional:</strong></p>
+                    <p>Você define limites individuais e acompanha gastos dos membros pelo app.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO QUEM USA, RECOMENDA -->
         <section class="container">
             <h1 class="titulo">Quem usa, Recomenda</h1>
             <p class="text1">
@@ -20,9 +146,10 @@
             </p>
         </section>
 
+        <!-- DEPOIMENTO 1 -->
         <section>
             <div class="coment1">
-                <span class="aspas aspas-esq">“</span>
+                <span class="aspas aspas-esq">"</span>
 
                 <p class="falaJ">
                     Antes, era uma confusão de cartões e faturas.
@@ -32,20 +159,21 @@
                     um só app. É a organização que precisávamos.
                 </p>
 
-                <span class="aspas aspas-dir">”</span>
+                <span class="aspas aspas-dir">"</span>
 
                 <p class="autora">
                     – Júlia A., 38 anos,
                     Empresária.
                 </p>
-            </div>
 
+            </div>
             <img class="fotos" src="assets/img/img1quemusarecomenda.png" alt="Julia A., 38 anos, Empresária.">
         </section>
 
+        <!-- DEPOIMENTO 2 -->
         <section class="container2">
             <div class="coment2">
-                <span class="aspas aspas-esq">“</span>
+                <span class="aspas aspas-esq">"</span>
 
                 <p class="falaR">
                     Uso o cartão Empresarial (Prata) e o meu adicional principal.
@@ -55,19 +183,20 @@
                     estão, de fato, trabalhando para mim.
                 </p>
 
-                <span class="aspas aspas-dir">”</span>
+                <span class="aspas aspas-dir">"</span>
 
                 <p class="autora">
                     - Roberto M., 52 anos, Consultor.
                 </p>
-            </div>
 
-            <img class="fotos" src="assets/img/img2quemusarecomenda.png" alt="Roberto M., 52 anos, Consultor">
+            </div>
+            <img class="fotos" src="assets/img/img2quemusarecomenda.png" alt="Roberto M., 52 anos, Consultor.">
         </section>
 
+        <!-- DEPOIMENTO 3 -->
         <section>
             <div class="coment3">
-                <span class="aspas aspas-esq">“</span>
+                <span class="aspas aspas-esq">"</span>
 
                 <p class="falaC">
                     Finalmente um banco que entende de educação financeira!
@@ -77,13 +206,13 @@
                     Super recomendo para jovens pais.
                 </p>
 
-                <span class="aspas aspas-dir">”</span>
+                <span class="aspas aspas-dir">"</span>
 
                 <p class="autora">
                     - Camila F., 29 anos, Designer
                 </p>
-            </div>
 
+            </div>
             <img class="fotos" src="assets/img/img3quemusarecomenda.png" alt="Camila F., 29 anos, Designer">
         </section>
 
@@ -91,8 +220,95 @@
             <button class="fp"><b>Faça Parte!</b></button>
         </section>
 
+        <!-- FAQ -->
+        <section class="faq">
+            <h2>Perguntas Frequentes</h2>
+            <details>
+                <summary>Como faço para abrir uma conta no Banco Nexus e quais são os requisitos?</summary>
+                <p>Você pode abrir sua conta em poucos minutos diretamente pelo nosso App Nexus. Basta ser maior de 18
+                    anos, ter um documento de identidade válido e um comprovante de residência. Não fazemos distinção
+                    por renda, mas a aprovação do crédito e o limite são definidos após uma análise de perfil.</p>
+            </details>
+            <details>
+                <summary>Posso solicitar cartões adicionais para a minha família, incluindo filhos menores de idade?
+                </summary>
+                <p>Sim! Este é o nosso principal diferencial. Você pode solicitar cartões adicionais para seus
+                    dependentes. O cartão Clássico é perfeito para a mesada dos filhos (sob seu controle e limite),
+                    unificando todos os gastos no seu Plano Família e App Nexus.</p>
+            </details>
+            <details>
+                <summary>É possível controlar os gastos de cada cartão adicional separadamente?</summary>
+                <p>Sim, você tem controle total e individualizado! Através do App Nexus, você pode definir limites de
+                    gastos específicos para cada cartão adicional do seu Plano Família. Se necessário, você pode
+                    ajustar, bloquear ou pausar qualquer um desses cartões a qualquer momento, garantindo que o
+                    orçamento familiar seja respeitado.</p>
+            </details>
+            <details>
+                <summary>Como faço para falar com o atendimento do Banco Nexus?</summary>
+                <ul>
+                    <p>Nosso atendimento digital está disponível 24/7 pelo App Nexus (Chat e telefone). Para contato
+                        presencial ou urgente, utilize nossos canais principais:</p>
+                    <li>Endereço: Av. Nove de Julho, 441, Jundiaí, São Paulo, Brasil</li>
+                    <li>Horário (Presencial): Segunda a Sexta, 07h às 18h</li>
+                    <li>Telefone: (19) 99874-2782</li>
+                    <li>Email: contato.nexus@nexus.com</li>
+                </ul>
+            </details>
+            <details>
+                <summary>É possível solicitar uma mudança na categoria do meu Cartão Nexus? (Clássico, Empresarial e
+                    Premium)?</summary>
+                <p>Sim, é possível! Você pode solicitar a troca da categoria do seu cartão a qualquer momento pelo App
+                    Nexus. Analisaremos seu perfil de gastos e uso para sugerir a melhor opção e validar sua
+                    solicitação.</p>
+            </details>
+        </section>
     </main>
 
+    <footer>
+
+        <div class="footer-container">
+            <div class="esquerda">
+                <div class="logo-texto">
+                    <img class="logo" src="assets/img/Logofundoroxa.png" alt="Logo Nexus">
+
+                    <p class="texto">
+                        Desde 2008, o NEXUS vem transformando a forma como as pessoas se conectam com o mundo
+                        financeiro.
+                    </p>
+                </div>
+            </div>
+            <div class="direita">
+                <p>
+                    <img class="icone" src="assets/icons/local.png" alt="">
+                    <a href="https://maps.app.goo.gl/PkGGsYGsaMrsmZNz7" target="_blank">
+                        Av. Nove de Julho, 441 - Jundiaí/SP
+                    </a>
+                </p>
+                <p>
+                    <img class="icone" src="assets/icons/clock.png" alt="">
+                    <a href="#">
+                        Segunda a Sexta, 07h às 18h
+                    </a>
+                </p>
+                <p>
+                    <img class="icone" src="assets/icons/phone.png" alt="">
+                    <a href="#">
+                        (19) 99874-2782
+                    </a>
+                </p>
+                <p>
+                    <img class="icone" src="assets/icons/email.png" alt="">
+                    <a href="#">
+                        contato.nexus@nexus.com
+                    </a>
+                </p>
+            </div>
+        </div>
+        <hr class="footer-line">
+        <p class="footer-copy">Todos os direitos reservados ©</p>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
