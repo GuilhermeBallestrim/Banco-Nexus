@@ -1,0 +1,594 @@
+/* ===================== FONTES ===================== */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;1,300&display=swap');
+
+/* ===================== RESET ===================== */
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    background: #fff;
+    margin: 0;
+}
+
+/* ===================== HEADER ===================== */
+
+header {
+    background-color: #8A05BE;
+    width: 100%;
+    height: 165px;
+    padding: 0 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 20%;
+    height: auto;
+}
+
+.menu {
+    display: flex;
+    gap: 80px;
+    margin-right: 80px;
+}
+
+.cabecalho {
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: italic;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* ===================== HERO ===================== */
+
+.hero {
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    font-size: 45px;
+    background:
+        linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
+        url('../assets/img/Imageminicial.png');
+    background-size: cover;
+}
+
+.hero_content>h1 {
+    font-family: 'Lato';
+    font-weight: 300;
+    width: 100px;
+    padding: 26px 80px 30px;
+}
+
+.hero_content>p {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    width: 530px;
+    padding: 0px 87px;
+}
+
+.hero_content>a {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    background-color: #8a05be;
+    font-size: 18px;
+    padding: 12px 30px;
+    border-radius: 12px;
+    color: white;
+    margin: 40px 85px;
+    display: inline-block;
+}
+
+/* ===================== QUEM SOMOS ===================== */
+
+.quem-somos {
+    margin: 137px 0;
+}
+
+.quem-somos h2 {
+    font-family: 'Lato';
+    font-weight: 900;
+    font-size: 50px;
+    margin-left: 85px;
+    margin-bottom: 45px;
+}
+
+.quem-somos_content {
+    margin: 0 auto;
+    background-color: #F3F0F0;
+    width: 1090px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    text-align: center;
+    border-radius: 16px;
+    height: 510px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.quem-somos_content p {
+    width: 470px;
+    margin: 0 auto;
+    padding: 21px 0;
+    font-size: 20px;
+}
+
+.quem-somos_content img {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.quem-somos a {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    background-color: #8a05be;
+    font-size: 18px;
+    padding: 20px 60px;
+    border-radius: 12px;
+    color: white;
+    display: inline-block;
+    margin-top: 36px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.quem-somos .botao {
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* ===================== CARROSSEL ===================== */
+
+.carrossel {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    font-family: "Montserrat";
+}
+
+.titulo-carrossel {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #1E1E3F;
+}
+
+.paragrafo-carrossel {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.carrossel-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    width: 100%;
+    max-width: 850px;
+    position: relative;
+}
+
+/* Miniaturas */
+.card-miniatura {
+    width: 120px;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+.cartoes-menores {
+    width: 100%;
+}
+
+.btn-seta {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.setas {
+    width: 30px;
+    transition: transform .2s;
+}
+
+.btn-seta:hover .setas {
+    transform: scale(1.1);
+}
+
+/* Cartão central */
+
+.cartao-central {
+    background: #fff;
+    width: 300px;
+    min-height: 390px;
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, .15);
+    text-align: center;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.cartao-img {
+    width: 300px;
+    margin: 0 0 0 -20px;
+}
+
+/* LISTA — alinhado e centralizado igual à imagem */
+.lista-central {
+    display: inline-block;
+    text-align: left;
+    padding-left: 18px;
+    margin: 15px auto 0;
+    max-width: 240px;
+}
+
+.lista-central li {
+    list-style-position: outside;
+    margin-bottom: 8px;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-style: italic;
+    font-size: 15px;
+    color: #333;
+}
+
+/* Título do cartão */
+.cartao-central figcaption strong {
+    display: block;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #1E1E3F;
+}
+
+/* Botão do carrossel */
+.botao-carrossel {
+    margin-top: 35px;
+    padding: 12px 35px;
+    background-color: #8A05BE;
+    color: white;
+    border-radius: 10px;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, .15);
+    transition: .3s;
+}
+
+.botao-carrossel:hover {
+    background-color: #7204a1;
+    transform: scale(1.05);
+}
+
+/* ===================== ANIMAÇÕES ===================== */
+
+.slide-out-next {
+    opacity: 0;
+    transform: translateX(-30px) scale(0.98);
+    transition: opacity 0.2s ease-in, transform 0.2s ease-in;
+}
+
+.slide-out-prev {
+    opacity: 0;
+    transform: translateX(30px) scale(0.98);
+    transition: opacity 0.2s ease-in, transform 0.2s ease-in;
+}
+
+.slide-in {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+    transition: opacity 0.2s ease-out 0.05s, transform 0.2s ease-out 0.05s;
+}
+
+/* ===================== VANTAGENS ===================== */
+
+.vantagem-nexus {
+    text-align: center;
+    padding: 50px 20px;
+    font-family: "Montserrat";
+}
+
+.vantagem-nexus h2 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #1E1E3F;
+    width: 1196px;
+    font-family: 'Lato';
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vantagem-nexus .subtext {
+    max-width: 420px;
+    margin: 0 auto;
+    color: #494949;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    filter: drop-shadow(2px 2px 4px #F6F0F0);
+}
+
+.card {
+    background: #F3F0F0;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #1a1a1a;
+}
+
+.card p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* ===================== QUEM USA, RECOMENDA ===================== */
+
+.container {
+    margin-top: 50px;
+    margin-right: 100px;
+    text-align: right;
+    font-family: 'Lato';
+    font-size: x-large;
+}
+
+.container2 {
+    margin-top: 70px;
+}
+
+p.text1 {
+    text-align: right;
+    margin-right: 10px;
+    white-space: pre-line;
+    font-size: medium;
+    font-family: 'Montserrat';
+}
+
+/* CARDS DOS DEPOIMENTOS */
+.coment1,
+.coment2,
+.coment3 {
+    font-family: 'Montserrat';
+    margin: 70px auto;
+    width: 70%;
+    max-width: 850px;
+    min-height: 150px;
+
+    background: none;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* TEXTO DOS DEPOIMENTOS */
+.falaJ,
+.falaR,
+.falaC {
+    font-size: 25px;
+    line-height: 1.6;
+    padding: 10px 50px 20px 50px;
+    color: #333;
+}
+
+.falaJ,
+.falaC {
+    text-align: left;
+}
+
+.falaR {
+    text-align: center;
+}
+
+/* ASPAS */
+.aspas {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 48px;
+    color: #8A05BE;
+    position: absolute;
+    line-height: 1;
+}
+
+.aspas-esq {
+    left: 0;
+    top: -15px;
+}
+
+.aspas-dir {
+    right: 0;
+    bottom: 205px;
+}
+
+.aspas-dir2 {
+    right: 0;
+    bottom: 250px;
+}
+
+.aspas-dir3 {
+    right: 0;
+    bottom: 250px;
+}
+
+
+/* AUTOR */
+.autora {
+    margin-top: 15px;
+    padding-left: 50px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 600;
+    color: #8A05BE;
+    text-align: left;
+}
+
+/* IMAGENS DENTRO DO CARD */
+img.fotos {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 12px;
+    margin-top: 20px;
+    display: block;
+}
+
+/* BOTÃO FAÇA PARTE */
+.btn-container {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+button.fp {
+    background-color: #8A05BE;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    width: 275px;
+    height: 65px;
+    border-radius: 16px;
+    margin-top: 45px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button.fp:hover {
+    background-color: #6f0499;
+}
+
+/* ===================== FAQ ===================== */
+
+.faq {
+    max-width: 900px;
+    margin: 80px auto;
+    padding: 0 20px;
+}
+
+.faq h2 {
+    font-family: 'Lato';
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #1E1E3F;
+}
+
+.faq details {
+    background-color: #F3F0F0;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.faq summary {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 600;
+    color: #1E1E3F;
+    cursor: pointer;
+    outline: none;
+}
+
+.faq details p,
+.faq details ul {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    color: #333;
+    margin-top: 15px;
+    line-height: 1.6;
+}
+
+.faq details ul {
+    padding-left: 20px;
+}
+
+.faq details li {
+    margin-bottom: 8px;
+}
+
+/* ===================== FOOTER ===================== */
+
+footer {
+    background-color: #8A05BE;
+    padding: 40px 60px;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.logo-texto {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    max-width: 450px;
+}
+
+.logo {
+    width: 160px;
+}
+
+.texto {
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.direita p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 8px 0;
+}
+
+.direita a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.direita .icone {
+    width: 20px;
+}
+
+.footer-line {
+    margin-top: 25px;
+    border-top: 1px solid #FFFFFF;
+}
+
+.footer-copy {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
