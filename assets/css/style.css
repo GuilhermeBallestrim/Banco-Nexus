@@ -419,7 +419,7 @@ p.text1 {
     /* Mantém quebras de linha do HTML */
     font-size: medium;
     line-height: 0.7;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -427,7 +427,7 @@ p.text1 {
    5. BLOCO DE COMENTÁRIOS
    --------------------------------------------------------- */
 .coment1 {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     margin: 0 120px 68px 120px;
     /* topo / lados / espaçamento para imagem */
     width: 70%;
@@ -436,7 +436,7 @@ p.text1 {
 }
 
 .coment2 {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     margin: 0 auto 50px auto;
     width: 70%;
     max-width: 800px;
@@ -444,7 +444,7 @@ p.text1 {
 }
 
 .coment3 {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     margin: 0 120px 68px 120px;
     /* topo / lados / espaçamento para imagem */
     width: 70%;
@@ -513,7 +513,7 @@ p.text1 {
     margin-top: 20px;
     padding-left: 40px;
     text-align: left;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 600;
     color: #8A05BE;
@@ -543,7 +543,7 @@ img {
 button.fp {
     background-color: #8A05BE;
     color: white;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-size: large;
     width: 200px;
     height: 50px;
