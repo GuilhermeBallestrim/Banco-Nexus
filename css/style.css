@@ -376,6 +376,7 @@ p.text1 {
     margin: 70px auto;
     width: 70%;
     max-width: 850px;
+    min-height: 150px;
 
     background: none;
     padding: 0;
@@ -392,9 +393,9 @@ p.text1 {
 .falaJ,
 .falaR,
 .falaC {
-    font-size: 18px;
-    line-height: 1.5;
-    padding: 0 40px;
+    font-size: 25px;
+    line-height: 1.6;
+    padding: 10px 50px 20px 50px;
     color: #333;
 }
 
@@ -411,25 +412,37 @@ p.text1 {
 .aspas {
     font-family: 'Montserrat';
     font-weight: 700;
-    font-size: 42px;
+    font-size: 48px;
     color: #8A05BE;
     position: absolute;
+    line-height: 1;
 }
 
 .aspas-esq {
-    left: 20px;
-    top: 10px;
+    left: 0;
+    top: -15px;
 }
 
 .aspas-dir {
-    right: 20px;
-    bottom: 80px;
+    right: 0;
+    bottom: 205px;
 }
+
+.aspas-dir2 {
+    right: 0;
+    bottom: 250px;
+}
+
+.aspas-dir3 {
+    right: 0;
+    bottom: 250px;
+}
+
 
 /* AUTOR */
 .autora {
-    margin-top: 10px;
-    padding-left: 40px;
+    margin-top: 15px;
+    padding-left: 50px;
     font-family: 'Montserrat';
     font-size: 16px;
     font-weight: 600;
@@ -439,7 +452,7 @@ p.text1 {
 
 /* IMAGENS DENTRO DO CARD */
 img.fotos {
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     border-radius: 12px;
     margin-top: 20px;
@@ -457,10 +470,10 @@ button.fp {
     background-color: #8A05BE;
     color: white;
     font-family: 'Montserrat';
-    font-size: large;
-    width: 200px;
-    height: 50px;
-    border-radius: 8px;
+    font-size: 25px;
+    width: 275px;
+    height: 65px;
+    border-radius: 16px;
     margin-top: 45px;
     cursor: pointer;
     transition: 0.2s;
