@@ -1,308 +1,20 @@
-<<<<<<< HEAD
-@font-face {
-    font-family: 'Lato';
-    src: url('../assets/fonts/lato/Lato-Light.ttf') format('truetype');
-}
+/* FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@300;500;600;700&display=swap');
 
-
-@font-face {
-    font-family: 'Montserrat';
-    src: url('../assets/fonts/montserrat/Montserrat-Medium.ttf') format('truetype');
-    font-weight: 400;
-    font-style: medium;
-}
-
-
-=======
-/* ---------------------------------------------------------
-   1. IMPORTAÇÃO DE FONTES
-   --------------------------------------------------------- */
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mooli&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mooli&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-
-/* ---------------------------------------------------------
-   2. RESETA ESTILOS PADRÕES DO NAVEGADOR
-   --------------------------------------------------------- */
->>>>>>> 5e09d5f271ccc54c4f4293b2f6bb124f453ce9e6
+/* RESET */
 * {
+    margin: 0;
     padding: 0;
     border: 0;
-    margin: 0;
-    text-decoration: none;
-<<<<<<< HEAD
     box-sizing: border-box;
-    scroll-behavior: smooth;
 }
 
 body {
     font-family: "Lato", sans-serif;
     background: #fff;
-    margin: 0px;
 }
 
-.vantagem-nexus {
-    text-align: center;
-    padding: 50px 20px;
-    font-family: "Montserrat", sans-serif;
-}
-
-.vantagem-nexus h2 {
-    font-size: 60px;
-    font-weight: 700;
-    margin-bottom: 50px;
-    color: #1E1E3F;
-    width: 1196px;
-    font-family: 'Lato', ;
-}
-
-.vantagem-nexus .subtext {
-    max-width: 420px;
-    margin: 0 auto;
-    text-align: center;
-    color: #494949;
-    font-size: 14px;
-    line-height: 1.4;
-    margin-bottom: 50px;
-}
-
-.cards-container {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    text-align: center;
-    filter: drop-shadow(2px 2px 4px #F6F0F0);
-}
-
-.card {
-    background: #F3F0F0;
-    width: 320px;
-    padding: 20px;
-    border-radius: 12px;
-    text-align: center;
-}
-
-.card h3 {
-    font-size: 20px;
-    margin-bottom: 15px;
-    color: #1a1a1a;
-    text-align: center;
-    justify-content: center;
-}
-
-.card p {
-    font-size: 14px;
-    margin-bottom: 15px;
-    color: #333;
-    justify-content: center;
-}
-
-.card strong {
-    font-weight: 600;
-    justify-content: center;
-}
-
-header {
-    background-color: #8A05BE;
-    box-sizing: border-box;
-    width: 100%;
-    height: 165px;
-    padding: 0 40px;
-    margin-top: 0;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.logo {
-    width: 20%;
-    height: auto;
-}
-
-.menu {
-    display: flex;
-    gap: 80px;
-    margin-right: 80px;
-}
-
-.cabecalho {
-    color: #FFFFFF;
-    font-family: 'Montserrat';
-    font-style: italic;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 300;
-}
-
-.hero {
-    height: 100vh;
-    background-size: cover;
-    font-size: 45px;
-    color: white;
-    background:
-        linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
-        url('../assets/img/Imageminicial.png');
-    background-size: cover;
-}
-
-
-.hero_content>h1 {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    width: 100px;
-    padding: 26px 80px 30px;
-
-}
-
-
-.hero_content>p {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    width: 530px;
-    padding: 0px 87px;
-}
-
-.hero_content>a {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    background-color: #8a05be;
-    font-size: 18px;
-    padding: 12px 30px;
-    border-radius: 12px;
-    color: white;
-    margin: 40px 85px;
-    display: inline-block;
-}
-
-/* --------------------------------------------------------------------- */
-
-
-.quem-somos_content {
-    margin: 0 auto;
-    background-color: #F3F0F0;
-    width: 1090px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    text-align: center;
-    border-radius: 16px;
-    height: 510px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-.quem-somos_content p {
-    width: 470px;
-    margin: 0 auto;
-    padding: 21px 0;
-    font-size: 20px;
-}
-
-.quem-somos_content img {
-    width: 500px;
-    margin: 0 auto;
-}
-
-.quem-somos a {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    background-color: #8a05be;
-    font-size: 18px;
-    padding: 20px 60px;
-    border-radius: 12px;
-    color: white;
-    display: inline-block;
-    margin-top: 36px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-.quem-somos {
-    margin: 137px 0;
-}
-
-.quem-somos .botao {
-    text-align: center;
-    margin: 0 auto;
-}
-
-.quem-somos h2 {
-    font-family: 'Lato', sans-serif;
-    font-weight: 900;
-    font-size: 50px;
-    margin-left: 85px;
-    margin-bottom: 45px;
-
-}
-
-footer {
-    background-color: #8A05BE;
-    padding: 40px 60px;
-    color: #FFFFFF;
-    font-family: 'Montserrat';
-}
-
-.footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-.logo-texto {
-    display: flex;
-    align-items: center;
-    gap: 25px;
-    max-width: 450px;
-}
-
-.logo {
-    width: 160px;
-    height: auto;
-}
-
-.texto {
-    font-size: 15px;
-    line-height: 22px;
-}
-
-.direita p {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin: 8px 0;
-}
-
-.direita a {
-    text-decoration: none;
-    color: #FFFFFF;
-    font-size: 15px;
-    font-style: italic;
-}
-
-.direita .icone {
-    width: 20px;
-}
-
-.footer-line {
-    margin-top: 25px;
-    border: none;
-    border-top: 1px solid #FFFFFF;
-}
-
-.footer-copy {
-    text-align: center;
-    margin-top: 15px;
-    font-size: 14px;
-}
-=======
-    box-sizing: border-box; /* Evita que padding aumente o tamanho total */
-}
-
-
-/* ---------------------------------------------------------
-   3. CONTAINERS PRINCIPAIS
-   --------------------------------------------------------- */
+/* TÍTULO */
 .container {
     margin-top: 50px;
     margin-right: 100px;
@@ -311,118 +23,57 @@ footer {
     font-size: x-large;
 }
 
-.container2 {
-    margin-top: 50px;
-    margin-right: 10px;
-    font-family: 'Lato';
-    font-size: x-large;
-    width: 100%;
-    margin-left: auto;
-    text-align: center;
-}
-
-.container3 {
-    margin-top: 50px;
-    margin-left: 10px;
-    font-family: 'lato';
-    font-size: x-large;
-    width: 100%;
-    margin-left: auto;
-    text-align: center;
-}
-/* ---------------------------------------------------------
-   4. PARÁGRAFO – TEXTO PRINCIPAL
-   --------------------------------------------------------- */
 p.text1 {
     text-align: right;
     margin-right: 10px;
-    white-space: pre-line; /* Mantém quebras de linha do HTML */
+    white-space: pre-line;
     font-size: medium;
-    line-height: 0.7;
     font-family: 'Montserrat';
 }
 
-
-/* ---------------------------------------------------------
-   5. BLOCO DE COMENTÁRIOS
-   --------------------------------------------------------- */
-.coment1 {
+/* DEPOIMENTOS */
+.coment1, .coment2, .coment3 {
     font-family: 'Montserrat';
-    margin: 0 120px 68px 120px; /* topo / lados / espaçamento para imagem */
+    margin: 40px auto;
     width: 70%;
     max-width: 800px;
     position: relative;
 }
 
-.coment2 {
-    font-family: 'Montserrat';
-    margin: 0 auto 50px auto;
-    width: 70%;
-    max-width: 800px;
-    position: relative;
-}
-
-.coment3 {
-    font-family: 'Montserrat';
-    margin: 0 120px 68px 120px; /* topo / lados / espaçamento para imagem */
-    width: 70%;
-    max-width: 800px;
-    position: relative;
-    margin-top: 40px;
-}
-
-/* ---------------------------------------------------------
-   6. TEXTO DA FALA
-   --------------------------------------------------------- */
-.falaJ {
+.falaJ, .falaR, .falaC {
     font-size: 18px;
-    line-height: 1.3; /* Melhora a leitura */
+    line-height: 1.3;
+    padding: 0 40px;
+}
+
+.falaJ, .falaC {
     text-align: left;
-    padding: 0 40px; /* Espaço interno para “respirar” */
 }
 
 .falaR {
-    font-size: 18px;
-    line-height: 1.3; /* Melhora a leitura */
     text-align: center;
-    padding: 0 40px; /* Espaço interno para “respirar” */
 }
 
-.falaC {
-    font-size: 18px;
-    line-height: 1.3;
-    text-align: left;
-    padding:0 40px;
-
-}
-
-/* ---------------------------------------------------------
-   7. ASPAS DECORATIVAS
-   --------------------------------------------------------- */
+/* ASPAS */
 .aspas {
-    font-family: 'Mooli';
+    font-family: 'Montserrat';
     font-weight: bold;
-    font-size: xx-large;
+    font-size: 34px;
     color: #8A05BE;
     position: absolute;
 }
 
-/* Aspa esquerda */
 .aspas-esq {
     left: 0;
     top: -10px;
 }
 
-/* Aspa direita */
 .aspas-dir {
     right: 0;
     bottom: 60px;
 }
 
-
-/* ---------------------------------------------------------
-   8. AUTORA / ASSINATURA
-   --------------------------------------------------------- */
+/* AUTOR */
 .autora {
     margin-top: 20px;
     padding-left: 40px;
@@ -431,25 +82,17 @@ p.text1 {
     font-size: 18px;
     font-weight: 600;
     color: #8A05BE;
-    white-space: pre-line;
 }
 
-
-/* ---------------------------------------------------------
-   9. IMAGENS
-   --------------------------------------------------------- */
-img {
-    width: 100%; /* Garante responsividade */
-
+/* IMAGENS */
+.fotos {
+    width: 100%;
 }
 
-/* ---------------------------------------------------------
-   10. BOTÃO - FAÇA PARTE!
-   --------------------------------------------------------- */
-
+/* BOTÃO */
 .btn-container {
     width: 100%;
-    text-align: center; 
+    text-align: center;
     margin-bottom: 30px;
 }
 
@@ -463,10 +106,9 @@ button.fp {
     border-radius: 8px;
     margin-top: 45px;
     cursor: pointer;
-    transition: 0.2s ease-in-out;
+    transition: 0.2s;
 }
 
 button.fp:hover {
-     background-color: #6f0499; /* tom um pouco mais escuro */
+    background-color: #6f0499;
 }
->>>>>>> 5e09d5f271ccc54c4f4293b2f6bb124f453ce9e6

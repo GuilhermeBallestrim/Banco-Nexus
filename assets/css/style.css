@@ -1,0 +1,559 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('../assets/fonts/lato/Lato-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/fonts/montserrat/Montserrat-Regular.ttf') format('truetype');
+}
+
+
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    background: #fff;
+    margin: 0px;
+}
+
+.vantagem-nexus {
+    text-align: center;
+    padding: 50px 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.vantagem-nexus h2 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #1E1E3F;
+    width: 1196px;
+    font-family: 'Lato', sans-serif;
+}
+
+.vantagem-nexus .subtext {
+    max-width: 420px;
+    margin: 0 auto;
+    text-align: center;
+    color: #494949;
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 50px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    filter: drop-shadow(2px 2px 4px #F6F0F0);
+}
+
+.card {
+    background: #F3F0F0;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #1a1a1a;
+    text-align: center;
+    justify-content: center;
+}
+
+.card p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #333;
+    justify-content: center;
+}
+
+.card strong {
+    font-weight: 600;
+    justify-content: center;
+}
+
+header {
+    background-color: #8A05BE;
+    box-sizing: border-box;
+    width: 100%;
+    height: 165px;
+    padding: 0 40px;
+    margin-top: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 20%;
+    height: auto;
+}
+
+.menu {
+    display: flex;
+    gap: 80px;
+    margin-right: 80px;
+}
+
+.cabecalho {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.hero {
+    height: 100vh;
+    background-size: cover;
+    font-size: 45px;
+    color: white;
+    background:
+        linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
+        url('../assets/img/Imageminicial.png');
+    background-size: cover;
+}
+
+
+.hero_content>h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    width: 100px;
+    padding: 26px 80px 30px;
+
+}
+
+
+.hero_content>p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    width: 530px;
+    padding: 0px 87px;
+}
+
+.hero_content>a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    background-color: #8a05be;
+    font-size: 18px;
+    padding: 12px 30px;
+    border-radius: 12px;
+    color: white;
+    margin: 40px 85px;
+    display: inline-block;
+}
+
+/* --------------------------------------------------------------------- */
+
+
+.quem-somos_content {
+    margin: 0 auto;
+    background-color: #F3F0F0;
+    width: 1090px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 16px;
+    height: 510px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.quem-somos_content p {
+    width: 470px;
+    margin: 0 auto;
+    padding: 21px 0;
+    font-size: 20px;
+}
+
+.quem-somos_content img {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.quem-somos a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    background-color: #8a05be;
+    font-size: 18px;
+    padding: 20px 60px;
+    border-radius: 12px;
+    color: white;
+    display: inline-block;
+    margin-top: 36px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.quem-somos {
+    margin: 137px 0;
+}
+
+.quem-somos .botao {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.quem-somos h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    margin-left: 85px;
+    margin-bottom: 45px;
+
+}
+
+footer {
+    background-color: #8A05BE;
+    padding: 40px 60px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.logo-texto {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    max-width: 450px;
+}
+
+.logo {
+    width: 160px;
+    height: auto;
+}
+
+.texto {
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.direita p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 8px 0;
+}
+
+.direita a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.direita .icone {
+    width: 20px;
+}
+
+.footer-line {
+    margin-top: 25px;
+    border: none;
+    border-top: 1px solid #FFFFFF;
+}
+
+.footer-copy {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+
+/* FAQ */
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.faq h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 75px;
+    color: #1E1E3F;
+}
+
+.faq details {
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    background-color: #F3F0F0;
+    border: 1px solid #ccc;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 'SemiBold';
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 954px;
+    min-height: 100px;
+}
+
+.faq summary::after {
+    content: "+";
+    float: right;
+    transition: .2s;
+}
+
+.faq summary::-webkit-details-marker {
+    display: none;
+}
+
+.faq summary {
+    font-size: 32px;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #1E1E3F;
+    font-size: 32px;
+    font-weight: 600px;
+}
+
+.faq details[open] summary::after {
+    content: "−";
+}
+
+.faq details p {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 28px;
+    padding-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.faq details ul li {
+    padding-left: 30px;
+    margin-bottom: 10px;
+    list-style: none;
+    font-size: 28px;
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-align: left;
+}
+
+.faq details ul p {
+    margin-bottom: 10px;
+}
+
+/* ---------------------------------------------------------
+   2. RESETA ESTILOS PADRÕES DO NAVEGADOR
+   --------------------------------------------------------- */
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    /* Evita que padding aumente o tamanho total */
+}
+
+
+/* ---------------------------------------------------------
+   3. CONTAINERS PRINCIPAIS
+   --------------------------------------------------------- */
+.container {
+    margin-top: 50px;
+    margin-right: 100px;
+    text-align: right;
+    font-family: 'Lato';
+    font-size: x-large;
+}
+
+.container2 {
+    margin-top: 50px;
+    margin-right: 10px;
+    font-family: 'Lato';
+    font-size: x-large;
+    width: 100%;
+    margin-left: auto;
+    text-align: center;
+}
+
+.container3 {
+    margin-top: 50px;
+    margin-left: 10px;
+    font-family: 'lato';
+    font-size: x-large;
+    width: 100%;
+    margin-left: auto;
+    text-align: center;
+}
+
+/* ---------------------------------------------------------
+   4. PARÁGRAFO – TEXTO PRINCIPAL
+   --------------------------------------------------------- */
+p.text1 {
+    text-align: right;
+    margin-right: 10px;
+    white-space: pre-line;
+    /* Mantém quebras de linha do HTML */
+    font-size: medium;
+    line-height: 0.7;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* ---------------------------------------------------------
+   5. BLOCO DE COMENTÁRIOS
+   --------------------------------------------------------- */
+.coment1 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 120px 68px 120px;
+    /* topo / lados / espaçamento para imagem */
+    width: 70%;
+    max-width: 800px;
+    position: relative;
+}
+
+.coment2 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto 50px auto;
+    width: 70%;
+    max-width: 800px;
+    position: relative;
+}
+
+.coment3 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 120px 68px 120px;
+    /* topo / lados / espaçamento para imagem */
+    width: 70%;
+    max-width: 800px;
+    position: relative;
+    margin-top: 40px;
+}
+
+/* ---------------------------------------------------------
+   6. TEXTO DA FALA
+   --------------------------------------------------------- */
+.falaJ {
+    font-size: 18px;
+    line-height: 1.3;
+    /* Melhora a leitura */
+    text-align: left;
+    padding: 0 40px;
+    /* Espaço interno para “respirar” */
+}
+
+.falaR {
+    font-size: 18px;
+    line-height: 1.3;
+    /* Melhora a leitura */
+    text-align: center;
+    padding: 0 40px;
+    /* Espaço interno para “respirar” */
+}
+
+.falaC {
+    font-size: 18px;
+    line-height: 1.3;
+    text-align: left;
+    padding: 0 40px;
+
+}
+
+/* ---------------------------------------------------------
+   7. ASPAS DECORATIVAS
+   --------------------------------------------------------- */
+.aspas {
+    font-family: 'Mooli';
+    font-weight: bold;
+    font-size: xx-large;
+    color: #8A05BE;
+    position: absolute;
+}
+
+/* Aspa esquerda */
+.aspas-esq {
+    left: 0;
+    top: -10px;
+}
+
+/* Aspa direita */
+.aspas-dir {
+    right: 0;
+    bottom: 60px;
+}
+
+
+/* ---------------------------------------------------------
+   8. AUTORA / ASSINATURA
+   --------------------------------------------------------- */
+.autora {
+    margin-top: 20px;
+    padding-left: 40px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #8A05BE;
+    white-space: pre-line;
+}
+
+
+/* ---------------------------------------------------------
+   9. IMAGENS
+   --------------------------------------------------------- */
+img {
+    width: 100%;
+    /* Garante responsividade */
+
+}
+
+/* ---------------------------------------------------------
+   10. BOTÃO - FAÇA PARTE!
+   --------------------------------------------------------- */
+
+.btn-container {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+button.fp {
+    background-color: #8A05BE;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    margin-top: 45px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button.fp:hover {
+    background-color: #6f0499;
+    /* tom um pouco mais escuro */
+}
