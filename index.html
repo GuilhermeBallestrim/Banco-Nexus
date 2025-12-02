@@ -4,13 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Banco Nexus</title>
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
         <img class="logo" src="./assets/img/Logofundoroxa.png" alt="Logo Banco Nexus">
+
         <nav class="menu">
             <a class="cabecalho" href="#quem-somos">Quem somos</a>
             <a class="cabecalho" href="https://discord.gg/6UAfZSyh2P">Comunidade</a>
@@ -19,18 +22,22 @@
     </header>
 
     <main>
+
         <section class="hero" aria-label="Apresentação Nexus">
             <div class="hero_content">
                 <h1>Prazer, Nexus</h1>
+
                 <p>
                     Somos mais que um banco, somos o Nexus, um elo que conecta pessoas, sonhos e oportunidades.
                     No NEXUS, o futuro não é distante, é construído em conjunto, todos os dias.
                 </p>
+
                 <a href="./formulario.html" class="contato">Entre em contato</a>
             </div>
         </section>
 
         <section class="quem-somos" aria-labelledby="titulo-quem-somos" id="quem-somos">
+
             <h2 id="titulo-quem-somos">Quem somos</h2>
 
             <div class="quem-somos_content">
@@ -47,27 +54,86 @@
                 <a href="./formulario.html">Faça seu login</a>
             </div>
         </section>
+
+        <section class="carrossel" aria-labelledby="titulo-cartoes">
+
+            <h1 id="titulo-cartoes" class="titulo-carrossel">Escolha o seu cartão</h1>
+
+            <p class="paragrafo-carrossel">
+                Do plano familiar ao premium: cartões flexíveis que acompanham sua rotina
+            </p>
+
+            <div class="carrossel-wrapper">
+
+                <figure class="card-miniatura">
+                    <img id="card-left" class="cartoes-menores" src="assets/img/cartaocinza.png"
+                        alt="Cartão à esquerda">
+                </figure>
+
+                <button id="prev" class="btn-seta" aria-label="Anterior">
+                    <img src="assets/img/Seta-esquerda.png" class="setas" alt="">
+                </button>
+
+                <figure id="cartao-central" class="cartao-central">
+                    <img id="card-center" class="cartao-img" src="assets/img/cartaobranco.png" alt="Cartão selecionado">
+
+                    <figcaption>
+                        <strong id="card-title">Clássico - Para seu dia a dia</strong>
+
+                        <ul id="card-list" class="lista-central">
+                            <li>Cashback em Compras</li>
+                            <li>Isenção de Anuidade</li>
+                            <li>App Nexus</li>
+                        </ul>
+                    </figcaption>
+                </figure>
+
+                <button id="next" class="btn-seta" aria-label="Próximo">
+                    <img src="assets/img/Seta-direita.png" class="setas" alt="">
+                </button>
+
+                <figure class="card-miniatura">
+                    <img id="card-right" class="cartoes-menores" src="assets/img/cartaopreto.png"
+                        alt="Cartão à direita">
+                </figure>
+
+            </div>
+
+            <a href="formulario.html" class="botao-carrossel">Encomende seu cartão</a>
+        </section>
+
         <section class="vantagem-nexus">
+
             <h2>Vantagem Nexus: Por Que Deixar o Antigo para Trás?</h2>
-            <p class="subtext"> Bancos tradicionais focam no individual. Nós focamos em você, na sua família e no seu
-                planejamento em conjunto. veja a diferença:</p>
+
+            <p class="subtext">
+                Bancos tradicionais focam no individual. Nós focamos em você, na sua família e no seu planejamento
+                em conjunto. Veja a diferença:
+            </p>
+
             <div class="cards-container">
+
                 <div class="card">
                     <h3>Bancos Tradicionais</h3>
                     <p><strong>Foco Individual:</strong></p>
                     <p>Cartões e benefícios pensados apenas para um titular.</p>
+
                     <p><strong>Recompensas Divididas:</strong></p>
                     <p>Cada cartão adicional tem seu próprio acúmulo de pontos/cashback.</p>
+
                     <p><strong>Controle Limitado:</strong></p>
                     <p>Dificuldade em estabelecer limites específicos para filhos ou dependentes.</p>
                 </div>
+
                 <div class="card">
                     <h3>Banco Nexus</h3>
                     <p><strong>Foco Familiar:</strong></p>
                     <p><strong>Plano Família Unificado.</strong></p>
                     <p>Todas as suas finanças em um só lugar.</p>
+
                     <p><strong>Recompensas Potencializadas:</strong></p>
                     <p>As compras de todos os membros somam para um único objetivo.</p>
+
                     <p><strong>Controle Total e Educacional:</strong></p>
                     <p>Você define limites individuais e acompanha gastos dos membros pelo app.</p>
                 </div>
@@ -75,8 +141,8 @@
         </section>
     </main>
 
-
     <footer>
+
         <div class="footer-container">
 
             <div class="esquerda">
@@ -129,6 +195,7 @@
         <p class="footer-copy">Todos os direitos reservados ©</p>
     </footer>
 
+    <script src="js/script.js"></script>
 </body>
 
 </html>
